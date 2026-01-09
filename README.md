@@ -36,6 +36,9 @@ Sigue estos pasos para configurar el entorno localmente:
 * Menu principal
 <img width="398" height="201" alt="image" src="https://github.com/user-attachments/assets/7db99e60-8d42-4d23-a50f-23368ef528ae" />
 
+* Salida del programa
+<img width="527" height="284" alt="image" src="https://github.com/user-attachments/assets/f5ed6c47-a470-481c-a08c-732df380cea5" />
+
 
 ## Integrantes del Equipo
 * Guillermo Santos - Alumno A
