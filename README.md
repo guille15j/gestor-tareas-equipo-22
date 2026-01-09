@@ -6,7 +6,7 @@ Sistema básico de gestión de tareas desarrollado en Python como práctica de t
 Este proyecto permite gestionar una lista de tareas (pendientes y completadas) mediante un menú interactivo. [cite_start]Se ha desarrollado utilizando una arquitectura de módulos separando las funciones de cada integrante del equipo.
 
 ## Requisitos Previos
-* **Python 3.x**: Lenguaje base del proyecto.
+* **Python 3.13.7**: Lenguaje del proyecto.
 * **Pip**: Gestor de paquetes de Python.
 
 ## Pasos de Instalación
