@@ -15,7 +15,15 @@ Sigue estos pasos para configurar el entorno localmente:
 1. **Clonar el repositorio:**
    ```bash
    git clone [https://github.com/guille15j/gestor-tareas-equipo-22.git](https://github.com/guille15j/gestor-tareas-equipo-22.git)
-
+2. **Crear Entorno Virtual:**
+    ```bash
+    python -m venv venv
+3. **Activar Entorno Virtual:**
+    ```bash
+    venv\Scripts\activate
+4. **Instalar dependencias:**
+   ```bash
+   pip install -r requirements.txt
 
 ## Instrucciones de uso
 1. **Iniciar el programa:**
