@@ -11,15 +11,15 @@ def main():
     while True:
         opcion = mostrar_menu()
 
-        if opcion == "1":
+        if opcion == 1:
             ver_tareas(fichero)
-        elif opcion == "2":
+        elif opcion == 2:
             añadir_tarea(fichero)
-        elif opcion == "3":
+        elif opcion == 3:
             marcar_completada(fichero)
-        elif opcion == "4":
+        elif opcion == 4:
             eliminar_tarea(fichero)
-        elif opcion == "5":
+        elif opcion == 5:
             despedida()
             break 
 
