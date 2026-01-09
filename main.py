@@ -23,5 +23,5 @@ def main():
             despedida()
             break 
 
-if __name__ == "__main__":
-    main()
+
+main()
