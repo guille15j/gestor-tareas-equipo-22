@@ -7,10 +7,18 @@ import os
 init()
 
 def main():
-    fichero = "tareas.txt"
-    if not os.path.exists(fichero):
-        open(fichero, 'w').close()
-        print(Fore.YELLOW + f"Archivo '{fichero}' creado correctamente.")
+
+    fichero = input("Introduce la ruta completa del archivo (incluye el nombre y .txt): ")
+
+    if os.path.exists(fichero):
+        print(Fore.GREEN + "El archivo ya existe en esa ruta." + Style.RESET_ALL)
+    else:
+        try:
+            open(fichero, "w").close()
+            print(Fore.YELLOW + f"Archivo creado en: {fichero}" + Style.RESET_ALL)
+        except:
+            print(Fore.RED + "No se pudo crear el archivo. Revisa la ruta." + Style.RESET_ALL)
+
     
     while True:
         opcion = mostrar_menu()
