@@ -182,5 +182,29 @@ def eliminar_tarea(fichero):
 
 def despedida():
     """Muestra mensaje de despedida."""
-    # TODO: Implementar
+    os.system('cls' if os.name == 'nt' else 'clear')
+    
+    print(Fore.CYAN + "╔══════════════════════════════════════════════════════╗")
+    print(Fore.CYAN + "║" + Fore.YELLOW + "                GESTOR DE TAREAS v1.0                " + Fore.CYAN + "║")
+    print(Fore.CYAN + "╠══════════════════════════════════════════════════════╣")
+    print(Fore.CYAN + "║" + Fore.MAGENTA + "       ¡Gracias por usar nuestro programa!         " + Fore.CYAN + "║")
+    print(Fore.CYAN + "║" + Fore.MAGENTA + "        Esperamos que te haya sido útil.           " + Fore.CYAN + "║")
+    print(Fore.CYAN + "╠══════════════════════════════════════════════════════╣")
+    print(Fore.CYAN + "║" + Fore.WHITE + "                 EQUIPO DE DESARROLLO                " + Fore.CYAN + "║")
+    print(Fore.CYAN + "║" + Fore.GREEN + "        • Alumno A - Funcionalidades básicas         " + Fore.CYAN + "║")
+    print(Fore.CYAN + "║" + Fore.GREEN + "        • Alumno B - Funciones de modificación       " + Fore.CYAN + "║")
+    print(Fore.CYAN + "╠══════════════════════════════════════════════════════╣")
+    print(Fore.CYAN + "║" + Fore.YELLOW + "            ¡Hasta la próxima!                    " + Fore.CYAN + "║")
+    print(Fore.CYAN + "╚══════════════════════════════════════════════════════╝")
+    
+    print(Fore.CYAN + "\n" + "═" * 55)
+    print(Fore.WHITE +Fore.YELLOW + "Fecha de desarrollo: Diciembre 2025 - Enero 2026")
+    print(Fore.WHITE +Fore.GREEN + "Lenguaje: Python 3.x")
+    print(Fore.WHITE +Fore.MAGENTA + "Librerías: Colorama")
+    
+    print(Fore.YELLOW + "           ¡PROGRAMA FINALIZADO!")
+    print(Fore.RED + Style.RESET_ALL)
+    
+    import time
+    time.sleep(1)
     pass
