@@ -36,6 +36,15 @@ Sigue estos pasos para configurar el entorno localmente:
 * Menu principal
 <img width="398" height="201" alt="image" src="https://github.com/user-attachments/assets/7db99e60-8d42-4d23-a50f-23368ef528ae" />
 
+* Ver tareas:
+<img width="396" height="191" alt="image" src="https://github.com/user-attachments/assets/bbd567c5-52a3-4f6b-9b89-19b0857376f2" />
+
+* Añadir una tarea:
+<img width="432" height="61" alt="image" src="https://github.com/user-attachments/assets/cba2e21a-39a5-48fb-bd96-cac51b82c840" />
+
+*Eliminar una tarea:
+<img width="421" height="301" alt="image" src="https://github.com/user-attachments/assets/fbd9c3c9-75e3-488d-ac49-5b176af20a45" />
+
 * Salida del programa
 <img width="527" height="284" alt="image" src="https://github.com/user-attachments/assets/f5ed6c47-a470-481c-a08c-732df380cea5" />
 
