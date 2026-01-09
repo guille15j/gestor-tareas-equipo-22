@@ -40,7 +40,7 @@ def ver_tareas(fichero):
             secciones = l.split('|')
             tarea = secciones[1].strip()
 
-            if secciones[0] == '1':
+            if secciones[0] == '0':
                 print(f"{i}. {Fore.CYAN}[ ]{Style.RESET_ALL} {tarea}")
             else:
                 print(f"{i}. {Fore.GREEN}[✓]{Style.RESET_ALL} {tarea}")
