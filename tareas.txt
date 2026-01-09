@@ -1,4 +1,0 @@
-0|Estudiar Python
-1|Hacer ejercicios
-0|Preparar examen
-1|Hacer la compra
