@@ -1,4 +1,6 @@
-from colorama import Fore, Style
+from colorama import init, Fore, Style
+
+init()
 
 def mostrar_menu():
     """Muestra el menú principal y devuelve la opción elegida."""
@@ -15,7 +17,7 @@ def mostrar_menu():
     while opcion not in [1,2,3,4,5]:
         try:
             opcion = input(f"\n{Fore.YELLOW}Elige opción: {Style.RESET_ALL}")
-            opcion = int(entrada)
+            opcion = int(opcion)
 
             if opcion not in [1, 2, 3, 4, 5]: print(f"{Fore.RED}Opción fuera de rango. Debe estar dentro del rango de opciones.{Style.RESET_ALL}")
 
@@ -33,3 +35,5 @@ def añadir_tarea(fichero):
     """Añade una nueva tarea al fichero."""
     # TODO: Implementar
     pass
+
+mostrar_menu()
