@@ -15,3 +15,16 @@ Sigue estos pasos para configurar el entorno localmente:
 1. **Clonar el repositorio:**
    ```bash
    git clone [https://github.com/guille15j/gestor-tareas-equipo-22.git](https://github.com/guille15j/gestor-tareas-equipo-22.git)
+
+
+## Instrucciones de uso
+
+
+## Captruas ejemplo de funcionamiento
+* Menu principal
+<img width="398" height="201" alt="image" src="https://github.com/user-attachments/assets/7db99e60-8d42-4d23-a50f-23368ef528ae" />
+
+
+## Integrantes del Equipo
+* Guillermo Santos - Alumno A
+* Fernanda González - Alumno B
