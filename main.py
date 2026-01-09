@@ -7,6 +7,9 @@ init()
 
 def main():
     fichero = "tareas.txt"
+    if not os.path.exists(fichero):
+        open(fichero, 'w').close()
+        print(Fore.YELLOW + f"Archivo '{fichero}' creado correctamente.")
     
     while True:
         opcion = mostrar_menu()
