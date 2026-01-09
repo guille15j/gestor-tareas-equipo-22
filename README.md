@@ -3,7 +3,7 @@
 Sistema básico de gestión de tareas desarrollado en Python como práctica de trabajo con Git.
 
 ## Descripción del Proyecto
-Este proyecto permite gestionar una lista de tareas (pendientes y completadas) mediante un menú interactivo. [cite_start]Se ha desarrollado utilizando una arquitectura de módulos separando las funciones de cada integrante del equipo.
+Este proyecto permite gestionar una lista de tareas (pendientes y completadas) mediante un menú interactivo. Se ha desarrollado utilizando una arquitectura de módulos separando las funciones de cada integrante del equipo.
 
 ## Requisitos Previos
 * **Python 3.13.7**: Lenguaje del proyecto.
