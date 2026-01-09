@@ -18,7 +18,19 @@ Sigue estos pasos para configurar el entorno localmente:
 
 
 ## Instrucciones de uso
-
+1. **Iniciar el programa:**
+   ```bash
+   python main.py
+2. **Seleccionar una de las opciones del menu:**
+   1. Ver tareas:
+      Muestra la lista de tareas indicando con [ ] las tareas pendientes y con [✓] las tareas completadas.
+   3. Añadir Tarea:
+      Escribe la descripción de la tarea y se guardará como pendiente automáticamente.
+   5. Macar Tarea como Completada:
+      Escribe el número de la tarea que ya has realizado para marcarla como completada.
+   7. Eliminar una tarea:
+      Escribe el número de la tarea que deseas borrar del registro.
+   9. Salir del programa
 
 ## Captruas ejemplo de funcionamiento
 * Menu principal
