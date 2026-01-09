@@ -1,4 +1,5 @@
-from colorama import Fore, Style
+from colorama import init, Fore, Style
+init()
 
 def mostrar_menu():
     """Muestra el menú principal y devuelve la opción elegida."""
